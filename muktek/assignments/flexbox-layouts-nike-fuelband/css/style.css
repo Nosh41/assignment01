@@ -1,0 +1,91 @@
+*{
+box-sizing: border-box; outline: 2px solid rgba(200,0,0,.1)
+}
+/* TEST to confirm .css file is linked. Delete later. */
+/*body {
+  background: lightyellow;
+}*/
+h1 {
+  font-family: Helvetica, Arial, sans-serif;
+
+}
+h4 {
+  font-size: 80%;
+}
+h5 {
+  color: #ff0000;
+}
+p {
+  width:750px;
+  height:300px
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 70%;
+  right: -33.33%;
+  text-align: left;
+}
+p1 {
+  width:750px;
+  height:300px
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 55%;
+
+}
+p2 {
+  width:750px;
+  height:300px
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 55%;
+  font-style: italic;
+  color: #ff0000;
+
+}
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  background-color:;
+  float: right;
+  width: 21.21%;
+  padding: 5px;
+  float: left
+
+}
+}
+
+.flex-container > div {
+  background-color: #f1f1f1;
+  width: 100px;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+}
+big-product-img {
+    float: right;
+    position: relative;
+    width:90%;
+    alt="Fuel" style="width:80%;"
+    alt="Smiley face" style="float:right;width:42px;height:42px;">
+
+}
+small-product-img-1 {
+    float: left;
+    position: relative;
+    width:20%;
+    display: inline-block;
+    alt="Fuel" style="width:22.22%;"
+
+}
+small-product-img-2 {
+    float: right;
+    position: relative;
+    width:20%;
+    display: inline-block;
+    alt="Fuel" style="width:22.22%;"
+}
+small-product-img-3 {
+    float: right;
+    position: relative;
+    width:20%;
+    display: inline-block;
+    alt="Fuel" style="width:22.22%;"
+}
