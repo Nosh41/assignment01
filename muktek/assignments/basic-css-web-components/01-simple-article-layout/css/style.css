@@ -1,0 +1,49 @@
+*{
+	box-sizing: border-box; outline: 2px solid rgba(200,0,0,.1)
+}
+.flex-container {
+  display: flex;
+	flex-direction: column;
+  background-color:;
+}
+
+.flex-container > div {
+  background-color: #FBF9F1;
+	width: 500px;
+	height: 50px;
+  margin: 20px;
+	text-align: justify;
+  padding: 5px;
+	line-height: 1.25;
+  font-size: 20px;
+}
+body{
+	background-color: #FBF9F1;
+}
+span.highlight
+{
+background-color:#000000
+}
+h1 {
+    color: #000000;
+}
+
+h1 {
+    font-family: Georgia, Palatino, serif;
+    font-size: 150%;
+}
+
+h2 {
+    color: #000000;
+}
+h2 {
+    font-family: Georgia, Palatino, serif;
+    font-size: 250%;
+}
+p {
+	  color: #000000;
+		font-family: Georgia, Palatino, serif;
+}
+a {
+    color: #77A8D2;
+}
